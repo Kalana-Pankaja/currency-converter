@@ -231,7 +231,7 @@ def main():
             target_currencies = [c.strip() for c in target_input.split(',')]
             
             try:
-                amount_input = input("Enter amount: ")
+                amount_input = input("Enter amount:  ")
                 if amount_input.lower() == 'exit':
                     break
                 amount = float(amount_input)
